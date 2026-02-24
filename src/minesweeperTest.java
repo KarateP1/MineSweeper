@@ -110,6 +110,6 @@ public class minesweeperTest {
     @Test
     public void testReavelingMineLose(){
         ms.revealCell(1, 1);
-        assertEquals("Test if reavling mine losses game", ms.checkLose(), true);
+        assertEquals("Test if reavling mine losses game", ms.checkLose(1, 1), true);
     }
 }
